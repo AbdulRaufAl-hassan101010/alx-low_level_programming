@@ -1,18 +1,13 @@
-#include "main.h"i;
+#include "main.h"
 
 /**
- * _isdigit - check for uppercase
- * @c: expecting  didgit as input
- * Return: 1 for  if char is a uppercase
- * 0 for lowercase
+ * _isupper - check for upper case letter
+ * @c : character to check the case
+ * Return:0 or 1
  */
 
 int _isupper(int c)
 {
-if (c < 48 || c > 57)
-{i
-	return (0);
-}
+	return (c >= 65 && c <= 90);
 
-	return (1);
 }
